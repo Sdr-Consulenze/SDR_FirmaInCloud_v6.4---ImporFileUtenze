@@ -1,0 +1,23 @@
+{
+    "file": {
+        "input": {
+            "filesystem": "",
+            "http_get": null
+        },
+        "output": {
+            "filesystem": "",
+            "http_post": null
+        },
+        "authentication": {
+            "pdf_user_password": null,
+            "http_user": null,
+            "http_password": null
+        }
+    },
+    "configuration": {
+        "show_annotate": false,
+        "show_manual_signature": false,
+        "error_handler_url": null,
+        "process_text_tags": false
+    }
+}

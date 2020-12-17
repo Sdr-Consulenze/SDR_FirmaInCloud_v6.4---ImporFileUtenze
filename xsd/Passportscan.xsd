@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PASSPORTSCAN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="RESERVATION">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PmsID" type="xs:unsignedInt" />
+              <xs:element name="GroupName" />
+              <xs:element name="Arrival" type="xs:unsignedInt" />
+              <xs:element name="Departure" type="xs:unsignedInt" />
+              <xs:element name="Room" type="xs:unsignedByte" />
+              <xs:element name="RoomType" type="xs:string" />
+              <xs:element name="Rate" />
+              <xs:element name="Adult" type="xs:unsignedByte" />
+              <xs:element name="Child" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Guests">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PmsID" type="xs:unsignedInt" />
+              <xs:element name="GuestsType" />
+              <xs:element name="Title" />
+              <xs:element name="FirstName" type="xs:string" />
+              <xs:element name="LastName" type="xs:string" />
+              <xs:element name="MiddleName" />
+              <xs:element name="Sex" type="xs:string" />
+              <xs:element name="Nationality" type="xs:string" />
+              <xs:element name="BirthNation" type="xs:string" />
+              <xs:element name="Nation" type="xs:string" />
+              <xs:element name="BirthDate" type="xs:unsignedInt" />
+              <xs:element name="IssueDate" type="xs:unsignedInt" />
+              <xs:element name="Expiration" type="xs:unsignedInt" />
+              <xs:element name="DocType" type="xs:string" />
+              <xs:element name="DocNumber" type="xs:unsignedInt" />
+              <xs:element name="BirthPlace" />
+              <xs:element name="BirthProvince" />
+              <xs:element name="IssuePlace" />
+              <xs:element name="IssueProvince" />
+              <xs:element name="Address1" />
+              <xs:element name="Address2" />
+              <xs:element name="Address3" />
+              <xs:element name="City" />
+              <xs:element name="Province" />
+              <xs:element name="State" />
+              <xs:element name="EMail" />
+              <xs:element name="Mobile" />
+              <xs:element name="Sign0" type="xs:byte" />
+              <xs:element name="Sign1" type="xs:byte" />
+              <xs:element name="Sign2" type="xs:unsignedByte" />
+              <xs:element name="Sign3" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

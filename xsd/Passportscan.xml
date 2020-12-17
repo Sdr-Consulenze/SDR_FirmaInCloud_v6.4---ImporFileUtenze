@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PASSPORTSCAN>
+  <RESERVATION>
+    <PmsID>00298202</PmsID>
+    <GroupName/>
+    <Arrival>20180716</Arrival>
+    <Departure>20180719</Departure>
+    <Room>105</Room>
+    <RoomType>D</RoomType>
+    <Rate/>
+    <Adult>1</Adult>
+    <Child>0</Child>
+  </RESERVATION>
+  <Guests>
+    <PmsID>0029820201</PmsID>
+    <GuestsType/>
+    <Title/>
+    <FirstName>Keith Gordon</FirstName>
+    <LastName>Leigh</LastName>
+    <MiddleName/>
+    <Sex>M</Sex>
+    <Nationality>GB</Nationality>
+    <BirthNation>GB</BirthNation>
+    <Nation>GB</Nation>
+    <BirthDate>19740705</BirthDate>
+    <IssueDate>20130425</IssueDate>
+    <Expiration>20230425</Expiration>
+    <DocType>PASOR</DocType>
+    <DocNumber>510546149</DocNumber>
+    <BirthPlace/>
+    <BirthProvince/>
+    <IssuePlace/>
+    <IssueProvince/>
+    <Address1/>
+    <Address2/>
+    <Address3/>
+    <City/>
+    <Province/>
+    <State/>
+    <EMail/>
+    <Mobile/>
+    <Sign0>-1</Sign0>
+    <Sign1>-1</Sign1>
+    <Sign2>0</Sign2>
+    <Sign3>0</Sign3>
+  </Guests>
+</PASSPORTSCAN>
